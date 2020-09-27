@@ -4,11 +4,13 @@ import './App.css';
 import StateFull , {StateFullComponent} from './components/StateFullComponent'
 import './components/StateLessComponent';
 import StateLessComponent from './components/StateLessComponent';
+import Home from './BaiTapChiaComponent/Home';
 function App() {
-  return <div class="App">
-    <StateLessComponent />
+  return <div>
+    {/* <StateLessComponent />
     <StateFull />
-    <StateFullComponent />
+    <StateFullComponent /> */}
+    <Home />
   </div>;
    
 }
